@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'rspec', '~> 3.0'
-gem 'rake'
+gem 'sinatra'
+gem 'rack'
+gem 'rackup'
+gem 'puma'
