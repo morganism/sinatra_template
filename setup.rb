@@ -61,6 +61,8 @@ TEMPLATE_FILES = {
         build: .
         ports:
           - "#{port}:#{port}"
+        volumes:
+          - ./app_data:/app_data 
   YAML
 
   'Gemfile.lock' => ''
