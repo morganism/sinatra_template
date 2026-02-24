@@ -8,3 +8,5 @@ begin
 rescue LoadError
   # no rspec available
 end
+
+task default: :status
